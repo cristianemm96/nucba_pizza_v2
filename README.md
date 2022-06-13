@@ -14,4 +14,6 @@
 como minimo: 275px x 180px, y como maximo: 900px x 500px, para poder mantener la calidad de estas.
 
 -Error a corregir visto:
-Actualizar el buscador de pizzas cuando se borra el stock del local storage.
+
+Actualizar el buscador de pizzas cuando se borra el stock del local storage sin necesidad de actualizar.
+Actualizar el buscador de pizzas cuando se agrega la primer pizza al stock del local storage sin necesidad de actualizar.
