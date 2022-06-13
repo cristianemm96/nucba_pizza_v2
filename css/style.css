@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/assets/descarga.jfif");
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+    opacity: 0.93;
+    line-height: 26px;
+}
+
+.main_content{
+    width: 400px;
+    background-color: hsl(0deg 0% 96%);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.05rem black solid;
+    border-radius: 5px;
+    padding: 10px 10px 20px 10px;
+    color:rgb(143, 60, 5)
+}
+
+.idSearch{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding-bottom:15px;
+}
+
+#imagen{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+}
+
+#result{
+    width: 350px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 25px 25px 25px 20px;
+    text-align: center;
+    background-color:rgb(217 217 217 / 17%);
+}
+
+#precio{
+    margin-top:20px;
+}
+
+#msg_inicial{
+    padding-top: 40px;
+}
+
+#idInput{
+    height: 30px;
+    width: 120px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#button{
+    height: 35px;
+    width: 120px;
+    border: none;
+    background-color: #290e0e;
+    color: white;
+}
+
+#button:hover{
+    background-color: #472323;
+}
+
+.agregaPizza{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.agregaPizza #button {
+    margin-top: 20px;
+}
+
+
+.pizza_input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pizza_input input{
+    height: 45px;
+    margin-top: 15px;
+}
+
+.pizza_input label{
+    text-align: center;
+}
+
+.msgAgregada{
+    color: rgb(89, 165, 12);
+}
+
+.preloader {
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    border: 10px solid #eee;
+    border-top: 10px solid #290e0e;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main_content">
+        <div class="result">
+
+        </div>
+        <div class="form_container">
+            <form action="" class="agregaPizza">
+                <div class="pizza_input">
+                    <label for="nombre">Ingrese el nombre la Pizza</label>
+                    <input type="text" name="Pizza" id="nombre">
+                </div>
+                <div class="pizza_input">
+                    <label for="imagen">Url de imagen</label>
+                    <input type="text" name="imagen" id="urlIMG" placeholder="Min: 275px x 180px - Max: 900px x 500px">
+                </div>
+                <div class="pizza_input">
+                    <label for="ingredientes">Ingrese los ingredientes separados por coma</label>
+                    <input type="text" name="ingredientes" id="ingredientes">
+                </div>
+                <div class="pizza_input">
+                    <label for="precio">Ingrese el precio de la pizza</label>
+                    <input type="number" name="precio" id="precio">
+                </div>
+                <input type="submit" value="Agregar" id="button">
+            </form>
+        </div>
+    </main>
+    <script src="./js/administradorPizza.js" type="module"></script>
+</body>
+</html>
