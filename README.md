@@ -8,3 +8,6 @@
 -Si no hay pizzas en el stock, no hay pizzas para buscar.
 -La imagen de cada pizza se carga con su URL. El tamaño de las imagenes debe ser, 
 como minimo: 275px x 180px, y como maximo: 900px x 500px, para poder mantener la calidad de estas.
+
+-Error a corregir visto:
+Actualizar el buscador de pizzas cuando se borra el stock del local storage.
